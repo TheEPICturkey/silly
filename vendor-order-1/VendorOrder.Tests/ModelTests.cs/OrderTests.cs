@@ -26,15 +26,15 @@ namespace VendorOrder.Tests
     [TestInitialize]
     public void TestInitialize()
     {
-      itemOne = "Sandevistan";
-      descriptionOne = "REDACTED";
+      itemOne = "Test1";
+      descriptionOne = "test";
       amountOne = 2;
-      costOne = 12999.98;
-      itemTwo = "Eclipse";
-      descriptionTwo = "REDACTED";
+      costOne = 3;
+      itemTwo = "Test2";
+      descriptionTwo = "test";
       amountTwo = 3;
-      costTwo = 27999.88;
-      DateTime date = new DateTime(2077, 09, 30);
+      costTwo = 2;
+      DateTime date = new DateTime(1997, 01, 04);
       orderOne = new Order(itemOne, descriptionOne, amountOne, costOne, date);
       orderTwo = new Order(itemTwo, descriptionTwo, amountTwo, costTwo, date);
       orderList = new List<Order> { orderOne, orderTwo};

@@ -21,9 +21,9 @@ namespace VendorOrder.Tests
     [TestInitialize]
     public void TestInitialize()
     {
-      nameOne = "Arasaka";
+      nameOne = "Test3";
       vendorOne = new Vendor(nameOne);
-      nameTwo = "Militech";
+      nameTwo = "Test4";
       vendorTwo = new Vendor(nameTwo);
       vendorList = new List<Vendor> { vendorOne, vendorTwo};
     }
@@ -59,11 +59,11 @@ namespace VendorOrder.Tests
     [TestMethod]
     public void AddOrder_AssociateOrderWithCategory_OrderList()
     {
-      string itemOne = "Sandevistan";
-      string descriptionOne = "REDACTED";
+      string itemOne = "Test1";
+      string descriptionOne = "test";
       int amountOne = 2;
-      double costOne = 12999.98;
-      DateTime date = new DateTime(2077, 09, 30);
+      double costOne = 3;
+      DateTime date = new DateTime(1997, 01, 04);
       Order orderOne = new Order(itemOne, descriptionOne, amountOne, costOne, date);
       List<Order> newList = new List<Order> { orderOne };
       vendorOne.AddOrder(orderOne);
