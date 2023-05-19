@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Test
+namespace HairSalon
 {
   class Program
   {
@@ -12,6 +12,8 @@ namespace Test
       builder.Services.AddControllersWithViews();
 
       WebApplication app = builder.Build();
+
+      app.UseHttpsRedirection();
 
       app.UseRouting();
 
