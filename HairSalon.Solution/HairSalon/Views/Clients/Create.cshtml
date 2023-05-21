@@ -1,0 +1,26 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Client
+
+<h4>Add a new Client</h4>
+
+<p><strong>NOTE:</strong> You need to have at least one Stylist before you can add a Client!</p>
+<p>Go to @Html.ActionLink("this page", "Create", "Stylists") to create a Stylist.</p>
+
+@using(Html.BeginForm())
+{
+  @Html.LabelFor(model => model.ClientName, new {@class = "labelcolor"})
+  @Html.TextBoxFor(model => model.ClientName)
+
+  @Html.LabelFor(model => model.ClientDetails, new {@class = "labelcolor"})
+  @Html.TextBoxFor(model => model.ClientDetails)
+
+  @Html.LabelFor(model=> model.Stylist, new {@class = "labelcolor"})
+  @Html.DropDownList("StylistId")
+
+  <input type="submit" value="Add new client" />
+}
+
+<p>@Html.ActionLink("Show all clients", "Index")</p>
