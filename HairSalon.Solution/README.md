@@ -1,4 +1,4 @@
-### By Brandon SPear
+### By Brandon Spear
 
 
 ### Technologies Used
