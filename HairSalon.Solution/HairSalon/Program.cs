@@ -21,7 +21,6 @@ namespace HairSalon
             )
           )
         );
-      DBConfiguration.ConnectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
 
       WebApplication app = builder.Build();
 
