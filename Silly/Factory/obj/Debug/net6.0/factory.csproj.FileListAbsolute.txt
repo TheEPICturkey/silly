@@ -1,0 +1,8 @@
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.csproj.AssemblyReference.cache
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.AssemblyInfoInputs.cache
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.AssemblyInfo.cs
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.RazorAssemblyInfo.cache
+C:\Users\Brandon\Desktop\Silly\Factory\obj\Debug\net6.0\factory.RazorAssemblyInfo.cs
